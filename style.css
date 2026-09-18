@@ -1,3 +1,6 @@
+.hide {
+  display: none;
+}
 *{
   
   font-family: poppins;
@@ -68,7 +71,7 @@ color:white;
  background:linear-gradient(#44C3FF,#A8E3FF);
  margin-top:1vh;
  margin-left:35vw;
- text-align:right; 
+ text-align:left; 
  margin-bottom: 20px;
 }
 .chat-input{
@@ -164,6 +167,8 @@ color:white;
   color:black;
   margin-left:0;
   align-self:flex-end;
+  overflow-x: auto;
+  overflow-y: auto;
 } 
 .usermsg{
  background:linear-gradient(#44C3FF,#A8E3FF);
@@ -195,7 +200,4 @@ color:white;
   padding:1.5vh 5.8vw;
   border-radius:12px;
 }
-#hide {
-  display:none;
-}
-}
+
